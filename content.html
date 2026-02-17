@@ -1,0 +1,20 @@
+
+<p>A <code>KeyError</code> occurs when you try to access a key that doesn't exist in a dictionary or dictionary-like object. This is similar to <code>IndexError</code> with lists, but for key-based lookups instead of positional access.</p>
+
+<h2>What Causes a KeyError?</h2>
+
+<p>KeyError is raised when you use a key that doesn't exist in a dictionary:</p>
+
+<py-cell>my_dict = {"name": "Alice"}
+print(my_dict["age"])</py-cell>
+
+<p>In this example, the dictionary only has the key <code>"name"</code>, so trying to access <code>"age"</code> raises a <code>KeyError: 'age'</code>.</p>
+
+<h2>String Keys are Case-Sensitive</h2>
+
+<p>Dictionary key lookups are also case-sensitive when a string is used as a key and must match exactly:</p>
+
+<py-cell>config = {"API_KEY": "secret"}
+
+print(config["API_KEY"])
+print(config["api_key"])</py-cell>

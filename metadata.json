@@ -1,0 +1,20 @@
+{
+    "title": "Python: KeyError",
+    "slug": "python-keyerror",
+    "description": "Understanding KeyError in Python. Covers what causes KeyError when accessing non-existent dictionary keys, and how string key matching is case-sensitive.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "python"
+    ],
+    "duration": 2,
+    "prerequisites": [
+        "python-exceptions",
+        "python-dictionaries-introduction",
+        "python-strings-introduction"
+    ],
+    "related": [
+        "python-indexerror"
+    ]
+}
